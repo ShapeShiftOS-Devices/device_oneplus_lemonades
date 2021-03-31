@@ -216,4 +216,8 @@
     <!-- Height of the status bar -->
     <dimen name="status_bar_height_portrait">112px</dimen>
     <dimen name="status_bar_height_landscape">82px</dimen>
+
+    <!-- Max visible notification icons -->
+    <integer name="config_maxVisibleNotificationIcons">12</integer>
+    <integer name="config_maxVisibleNotificationIconsOnLock">12</integer>
 </resources>
