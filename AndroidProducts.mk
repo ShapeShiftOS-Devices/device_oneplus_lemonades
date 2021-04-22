@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ssos_kebab.mk
+    $(LOCAL_DIR)/ssos_lemonades.mk
 
 COMMON_LUNCH_CHOICES := \
-    ssos_kebab-user \
-    ssos_kebab-userdebug \
-    ssos_kebab-eng
+    ssos_lemonades-user \
+    ssos_lemonades-userdebug \
+    ssos_lemonades-eng

@@ -18,8 +18,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from kebab device
-$(call inherit-product, device/oneplus/kebab/device.mk)
+# Inherit from lemonades device
+$(call inherit-product, device/oneplus/lemonades/device.mk)
 
 # Inherit some common Havoc stuff.
 $(call inherit-product, vendor/ssos/config/common_full_phone.mk)
@@ -34,8 +34,8 @@ TARGET_INCLUDE_LIVE_WALLPAPERS := false
 
 SSOS_BUILD_TYPE := OFFICIAL
 
-PRODUCT_NAME := ssos_kebab
-PRODUCT_DEVICE := kebab
+PRODUCT_NAME := ssos_lemonades
+PRODUCT_DEVICE := lemonades
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := KB2005
@@ -49,6 +49,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # ShapeShift specific properties
 PRODUCT_PRODUCT_PROPERTIES += \
-  ro.ssos.cpu=SD865
+  ro.ssos.cpu=SD870
 
 BUILD_FINGERPRINT := google/redfin/redfin:11/RQ2A.210405.005/7181113:user/release-keys
